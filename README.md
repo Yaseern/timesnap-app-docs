@@ -17,7 +17,7 @@ TimeSnap is a Forge-based Custom UI app designed to simplify how teams track the
 ## Installation
 
 1. Navigate to the **Atlassian Marketplace** within your Jira Cloud instance.
-2. Search for **TimeSnap**.
+2. Search for **TimeSnap for Jira**.
 3. Click **Get it now** to install the app.
 4. Once installed, TimeSnap will be available in your Jira sidebar or Apps menu (depending on your configuration).
 
