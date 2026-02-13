@@ -5,112 +5,26 @@
   <meta charset="UTF-8">
   <title>TimeSnap – Jira Timesheet App</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      background: #F5F7FA;
-      color: #333;
-    }
-
-    header {
-      color: #e0720b;
-      padding: 16px 32px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      img {
-        width: 200px;
-      }
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 1.8rem;
-    }
-
-    a {
-      color: #e0720b;
-    }
-
-    nav a {
-      text-decoration: none;
-      margin-left: 16px;
-      font-weight: 500;
-    }
-
-    section {
-      padding: 60px 32px;
-      text-align: center;
-    }
-
-    .hero {
-      background: #e0724930;
-    }
-
-    .hero h2 {
-      font-size: 2rem;
-      margin-bottom: 16px;
-    }
-
-    .hero p {
-      font-size: 1.1rem;
-      margin-bottom: 24px;
-    }
-
-    .button {
-      background: #e0720b;
-      color: #fff;
-      border: none;
-      padding: 12px 24px;
-      border-radius: 6px;
-      font-size: 1rem;
-      cursor: pointer;
-      text-decoration: none;
-    }
-
-    .features {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 24px;
-      margin-top: 32px;
-    }
-
-    .feature-card {
-      background: #fff;
-      border-radius: 8px;
-      padding: 24px;
-      width: 250px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    footer {
-      background: white;
-      color: #e0720b;
-      padding: 24px 32px;
-      text-align: center;
-      margin-top: 32px;
-
-    }
-
-    footer a {
-      text-decoration: none;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-  <header>
-    <h1><img src="assets/ts-logo.png" /></h1>
-    <nav>
+  <!-- HEADER START -->
+  <header class="main-header">
+    <div class="header-left">
+      <a href="/">
+        <img src="assets/ts-logo.png" alt="TimeSnap Logo" class="logo" />
+      </a>
+      <span class="brand-title">TimeSnap</span>
+    </div>
+    <nav class="main-nav">
       <a href="#features">Features</a>
       <a href="#privacy">Privacy</a>
-      <a href="/timesnap-app-docs/security.html">Security</a>
+      <a href="/security.html">Security</a>
     </nav>
   </header>
+  <!-- HEADER END -->
 
   <section class="hero">
     <h2>TimeSnap – Simplify Jira Timesheets</h2>
@@ -172,13 +86,17 @@
     <h2>Privacy & Data Usage</h2>
     <p>TimeSnap only reads Jira worklogs and stores minimal configuration data in Atlassian Forge Storage. No data is
       sent outside Atlassian.</p>
-    <a href="/timesnap-app-docs/privacy.html" class="button">View Full Privacy Policy</a>
+    <a href="/privacy.html" class="button">View Full Privacy Policy</a>
   </section>
 
-  <footer>
-    <p>© 2026 TimeSnap | <a href="mailto:yaseermunas@gmail.com">Contact Us</a> | <a
-        href="https://github.com/yaseern/timesheet-app-docs">GitHub</a></p>
+  <!-- FOOTER START -->
+  <footer class="main-footer">
+    <p>© 2026 TimeSnap |
+      <a href="mailto:yaseermunas@gmail.com">Contact Us</a> |
+      <a href="https://github.com/yaseern/timesheet-app-docs" target="_blank">GitHub</a>
+    </p>
   </footer>
+  <!-- FOOTER END -->
 
 </body>
 
